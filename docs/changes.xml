@@ -5,6 +5,13 @@
 <change_log title="unit">
 
 
+<change type="bugfix">
+<para>
+fixed contents of SCRIPT_NAME in Ruby to always be an empty string.
+</para>
+</change>
+
+
 <changes apply="unit-php
                 unit-python unit-python2.7
                 unit-python3.4 unit-python3.5 unit-python3.6 unit-python3.7
